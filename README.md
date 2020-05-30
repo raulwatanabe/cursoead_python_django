@@ -30,5 +30,6 @@ sudo docker-compose run web django-admin.py startproject cursoead .
 Para criar novas aplicações no Projeto do django:
 
 sudo docker-compose run web django.admin startapp core
+
 sudo docker-compose run web django.admin.py startapp courses
 
