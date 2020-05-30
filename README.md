@@ -23,11 +23,11 @@ Pelo navegador, com localhost ou 127.0.0.1 ou o ip da máquina rodando o django:
 http://localhost:80000
 
 ## Dicas com o Docker:
-Para criar o Projeto inicialmente:
+#### Para criar o Projeto inicialmente:
 
 sudo docker-compose run web django-admin.py startproject cursoead .
 
-Para criar novas aplicações no Projeto do django:
+#### Para criar novas aplicações no Projeto do django:
 
 sudo docker-compose run web django.admin startapp core
 
