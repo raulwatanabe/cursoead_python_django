@@ -33,3 +33,13 @@ sudo docker-compose run web django.admin startapp core
 
 sudo docker-compose run web django.admin.py startapp courses
 
+#### Para acessar o banco de dados postgresql:
+
+sudo docker ps
+( para obter o hash correspondente ao container postgres, por exemplo: ff2edb1b9307 )
+
+sudo docker exec -it ff2edb1b9307 sh
+( uma vez no shell:
+     su - postgres
+     psql
+
